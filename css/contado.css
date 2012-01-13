@@ -1,0 +1,29 @@
+body{
+	font-size:100%;
+	font-weight:normal;
+	font-family:"Courier New", Courier, monospace;
+}
+table#lista{
+	text-align:left;
+	border-bottom:1px dotted #000;
+	padding:0 0 1px 0;
+}
+table#lista th{
+	border:1px dotted #000;
+	border-left:none;
+	border-right:none;
+	padding:5px 0 5px 0;
+}
+table#lista td{
+	padding:3px 0 3px 0;
+}
+table#lista #ultima td{
+	border-bottom:1px dotted #000;
+	margin:0 0 20px 0;
+}
+table#lista .derecha{
+	text-align:right;
+}
+.print, #header{
+	display:none;
+}

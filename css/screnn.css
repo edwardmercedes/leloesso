@@ -1,0 +1,349 @@
+/*Autor: Edward Mercedes*/
+body{
+	font-size:12px;
+	background:#020370;
+	background:#FFEBCD;
+	font-family:Georgia, "Times New Roman", Times, serif;
+}
+img{border:none;}
+a{
+	text-decoration:none;
+	color:#A67E43;
+}
+a.botton{
+    border:0;
+    color: #668428;
+    font-size: 17px;
+    font-family:sans-serif;
+    padding:5px;
+	cursor:pointer;
+ 
+    background: -moz-linear-gradient(center top , #CDEB8E 0%, #A5C956 100%) repeat scroll 0 0 transparent;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#cdeb8e), color-stop(100%,#a5c956));
+
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+		
+	text-shadow: 1px 1px 1px #E1FEA6;
+		
+	-moz-box-shadow: 0px 2px 0 #819F45;
+    -webkit-box-shadow: 0px 2px 0 #819F45;
+}
+h1{
+	color:#A67E43;
+	font-size:15px;
+}
+label{
+	color:#FFF;
+	color:#A67E43;
+}
+.masther{
+	border:1px solid #e9e6e2;
+	border-bottom:none;
+	border-right:none;
+	background:#D8D5CE;
+	background:#eff9d9;
+}
+.masther tr:hover{
+	background:#e5f7be;
+}
+.masther th{
+	border:1px solid #fce3be;
+	border-top:none;
+	border-left:none;
+	padding:3px 5px;
+	background:#a9cc5b;
+	color:#778428;
+}
+.masther td{
+	border:1px solid #fce3be;
+	border-top:none;
+	border-left:none;
+	padding:5px 5px;
+	text-align:center;
+}
+.masther .derecha{
+	text-align:right;
+}
+.izquierda{
+	text-align:left;
+}
+#informacion{
+	margin:0 0 10px 0;
+	color:#fff;
+}
+#informacion h1{
+	margin:0 0 5px 0;		
+}
+/*FORMULARIOS*/
+form input{
+	border:1px solid #A67E43;
+	padding:5px 2px;
+	width:220px;
+	background:#FFF4E4;
+	color:#A67E43;
+}
+form input:focus{
+	background:#fff;
+}
+form textarea{
+	border:1px solid #A67E43;
+	padding:5px 2px;
+	width:220px;
+	background:#FFF4E4;
+	color:#A67E43;
+}
+form textarea:focus{
+	background:#fff;
+}
+form input.control{
+    border:0;
+    color: #668428;
+    font-size: 17px;
+    font-family:sans-serif;
+    padding:5px;
+	cursor:pointer;
+ 
+    background: -moz-linear-gradient(center top , #CDEB8E 0%, #A5C956 100%) repeat scroll 0 0 transparent;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#cdeb8e), color-stop(100%,#a5c956));
+
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+		
+	text-shadow: 1px 1px 1px #E1FEA6;
+		
+	-moz-box-shadow: 0px 2px 0 #819F45;
+    -webkit-box-shadow: 0px 2px 0 #819F45;
+}
+form select{
+	border:1px solid #A67E43;
+	padding:5px 2px;
+	width:225px;
+	background:#FFF4E4;
+	color:#A67E43;
+}
+form select:focus{
+	background:#fff;
+}
+
+#form_login{
+	background: url(../images/form.gif) no-repeat;
+	width:423px;
+	margin:0 auto;
+	padding:20px 0 80px 0;
+}
+#form_login form{
+	margin:100px 0 120px 50px;
+}
+
+
+
+#header{
+	margin:0 0 10px 0;
+	border:1px solid #819f45;
+	border-bottom:3px solid #819f45;
+	width:730px;
+	border-radius: 15px;
+	height:90px;
+	background:#FFF url(../images/esso.jpg) no-repeat;
+	background-position:50% 95%;
+}
+#header h1{
+	color:#02006e;
+	font-size:16px;
+	text-align:center;
+}
+#header h1 span{ 
+	color:#F00;
+	font-size:10px;
+	margin:0 0 0 0;
+}
+#header p{ 
+	font-size:10px;
+	float:right;
+	padding:0 5px 0 0;
+	margin:0;
+}
+#header a.logo{
+	display:inline-block;
+	width:50px;
+	height:35px;
+	margin:0 0 0 340px;
+}
+
+
+
+
+
+
+/* 	MENU PRINCIPIAL  */
+#funciones{
+	margin:0 0 15px 0;
+
+}
+#funciones a{
+    border:0;
+    color: #668428;
+    font-size: 12px;
+    font-family:sans-serif;
+    padding:5px 10px 5px 10px;
+	cursor:pointer;
+	text-decoration:none;
+ 
+    background: -moz-linear-gradient(center top , #CDEB8E 0%, #A5C956 100%) repeat scroll 0 0 transparent;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#cdeb8e), color-stop(100%,#a5c956));
+
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+		
+	text-shadow: 1px 1px 1px #E1FEA6;
+		
+	-moz-box-shadow: 0px 2px 0 #819F45;
+    -webkit-box-shadow: 0px 2px 0 #819F45;
+}
+#funciones a:hover{
+	color:#1C1D7F;
+}
+#funciones a:active{
+	position:relative;
+	top:1px;
+	
+	-moz-box-shadow:0px 1px 0 #819F45;
+    -webkit-box-shadow:0px 1px 0 #819F45;
+	
+	background: -moz-linear-gradient(center top , #A5C956 0%, #CDEB8E 100%) repeat scroll 0 0 transparent;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a5c956), color-stop(100%,#cdeb8e));
+}
+
+
+
+
+
+
+#haader_imprint{
+	display:none;	
+}
+#fecha_impresion{
+	display:none;
+}
+#firma{
+	display:none;
+}
+#numero_factu{
+	margin:20px 0 10px 0;
+}
+.fecha{
+	font-size:11px;
+}
+#home{
+	display:block;
+	width:100px;
+	height:40px;
+	text-decoration:none;
+}
+.radio{
+	width:10px;
+}
+#ncf_fieldset{
+	width:700px;
+	margin:0 0 5px 0;
+	border:1px #999999 solid;
+}
+#ncf_fieldset legend{
+background:#006600;
+padding:5px;
+border:1px solid #FFF;
+color:#FFFFFF;
+}
+
+
+/* --- FIELDSET --- */
+fieldset{
+	margin:5px 0 10px 0;
+	border:1px solid #9CF;
+	color:#FFF;
+}
+fieldset legend{
+	margin:5px 0 10px 0;
+	padding:3px 20px 3px 20px;
+	border:1px solid #9CF;
+	font-size:15px;
+	background:#FFF;
+	color:#000;
+}
+
+/* BOTONCITOS input y mas  */
+.botoncito{
+    border:0;
+    color: #668428;
+    font-size: 17px;
+    font-family:sans-serif;
+    padding:5px;
+	cursor:pointer;
+ 
+    background: -moz-linear-gradient(center top , #CDEB8E 0%, #A5C956 100%) repeat scroll 0 0 transparent;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#cdeb8e), color-stop(100%,#a5c956));
+
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+		
+	text-shadow: 1px 1px 1px #E1FEA6;
+		
+	-moz-box-shadow: 0px 2px 0 #819F45;
+    -webkit-box-shadow: 0px 2px 0 #819F45;
+}
+.botoncito:active{
+	position:relative;
+	top:1px;
+	
+	-moz-box-shadow:0px 1px 0 #819F45;
+    -webkit-box-shadow:0px 1px 0 #819F45;
+	
+	background: -moz-linear-gradient(center top , #A5C956 0%, #CDEB8E 100%) repeat scroll 0 0 transparent;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a5c956), color-stop(100%,#cdeb8e));
+}
+.input{
+    padding: 5px;  
+    font-size: 15px;  
+    text-shadow: 0px 1px 0px #fff;  
+    outline: none;  
+    background: -webkit-gradient(linear, left top, left bottombottom, from(#bcbcbe), to(#ffffff));  
+    background: -moz-linear-gradient(top,  #bcbcbe,  #ffffff); 
+}	
+
+.credito{
+	border-top:2px solid #819f45;
+	background:#aacd5d;
+	color:#778449;
+	padding:5px 0 5px 15px;
+	width:717px;
+}
+
+
+
+
+/*
+FACTURA AL CONTADO EN EL DIV DROP
+*/
+#facturaContadonombreDrop{
+	display:block;
+	position:absolute;
+	z-index:10;
+	background:#edf8d7;
+	width:148px;
+	border:1px solid #c7e686;
+	border-top:none;
+	font-size:11px;
+}
+#facturaContadonombreDrop a{
+	display:block;
+	margin:0;
+	padding:6px 0 6px 0;
+}
+#facturaContadonombreDrop a:hover{
+	background:#dafc97;
+}
+
+#imprimirReporte{
+	padding:10px 0 20px 0;
+}

@@ -1,0 +1,134 @@
+/*Autor: Edward Mercedes*/
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	background:#fff;
+	font: 8pt 'Courier New', Courier, monospace; 
+	color:#000;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+img{
+	border:none;
+	}
+input{
+	border:none;
+	background:none;
+	font-size:8pt;
+	width:140px;
+	}
+Textarea{
+	border:none;
+	background:none;
+	font-size:8pt;
+	height:40px;
+	}
+#factura_envoltura{
+	width:740px;
+}
+#header1 {
+	width:500px;
+	margin:0 30px 0 0;
+	display:inline-block;
+}
+#empresa #logo{
+	margin:5px 15px 0 10px;
+}
+#testo_empresa{
+	font-size:9pt;
+}
+#cliente_informacion{
+	width:380px;
+	border:1px #CCC dotted;
+	border-top:3px #CCC solid;
+	margin:5px 0 0 10px;
+	font-size:8pt;
+	padding:5px 0 5px 10px;
+}
+#header2 {
+	width:140px;
+	display:inline-block;
+}
+	#header2 dl{
+		margin:0 0 0 0;
+		font-size:8pt;
+	}
+	#header2 dl dt{
+		background:#CCC;
+		font-weight:bold;
+		padding:0 5px 0 3px;
+		border:1px solid #ccc;
+	}
+	#header2 dl dd{
+		padding:5px 5px 5px 3px;
+		margin:0 0 5px 0;
+		border-top:none;
+		border:1px dotted #ccc;		
+	}
+/*
+INFORMAICON EN LA TABLE
+*/
+#informacion_factura{
+	border:none;
+	margin:20px 0 0 10px;
+	width:650px;
+	border-bottom:1px dotted #000;
+}
+#informacion_factura th{
+	border:1px dotted #000;
+	border-left:none;
+	border-right:none;
+	padding:3px 3px;
+	color:#000;
+	font-weight:bold;
+	font-size:8pt;
+	text-align:left;
+}
+#informacion_factura th.derecha{
+	text-align:right;
+}
+#informacion_factura td{
+	padding:2px 0 4px 0;
+	border:none;
+	text-align:center;
+	font-size:8pt;
+	text-align:left;
+}
+#informacion_factura td.derecha{
+	text-align:right;
+}
+#informacion_factura .total td{
+	font-weight:bold;
+	border:1px dotted #000;
+	border-left:none;
+	border-right:none;
+}
+#firma{
+	width:600px;
+	margin:0 auto;
+	padding:30px 0 0 0;
+}
+#firma p{
+	display:inline-block;
+	width:200px;
+	margin:0 0 0 20px;
+	text-align:center;
+	border-top:1px dotted #000;
+}
+#genera{
+	margin:0 0 0 10px;
+}
+#nota{
+	width:455px;
+	border:1px dotted #000;
+	margin:10px 0 0 5px;
+	padding:10px;
+	font-size:9pt;
+}
+.no{
+	display:none;
+	}
+#fecha_selector{
+	display:none;
+	}

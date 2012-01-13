@@ -1,0 +1,16 @@
+body{font-family:Arial, Helvetica, sans-serif;}
+.wrapRegistro div{display:inline-block;}
+#headerT{font-weight:bold; font-size:12px; margin:0 0 10px 0;}
+
+#registro{font-weight:normal; font-size:11px;margin:0 0 10px 0}
+
+.code{ width:50px;}
+.nombre{width:210px;}
+.telefono{width:100px;}
+.numbers{width:100px; text-align:right;}
+
+.saltodepagina{page-break-after:right;}
+
+#espere{
+	display:none;
+}

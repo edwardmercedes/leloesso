@@ -1,0 +1,118 @@
+/*Autor: Edward Mercedes*/
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	background:#fff;
+	font-family: 'Trebuchet MS', Helvetica, sans-serif;
+	font-size:10px;
+}
+img{
+	border:none;
+	}
+#factura_envoltura{
+	width:700px;
+}
+#header1 {
+	width:550px;
+	margin:0 20px 0 25px;
+	display:inline-block;
+}
+#empresa #logo{
+	margin:5px 20px 0 10px;
+}
+#testo_empresa{
+	font-size:11px;
+	text-align:center;
+}
+#cliente_informacion{
+	width:500px;
+	border:1px #CCC solid;
+	border-top:4px #CCC solid;
+	margin:3px 0 0 10px;
+	font-size:11px;
+	padding:5px 0 5px 10px;
+}
+#header2 {
+	width:180px;
+	display:inline-block;
+}
+	#header2 dl{
+		margin:0 0 0 0;
+		font-size:11px;
+	}
+	#header2 dl dt{
+		background:#CCC;
+		font-weight:bold;
+		padding:0 5px 0 15px;
+		border:1px solid #ccc;
+		border-bottom:1px solid #ccc;
+	}
+	#header2 dl dd{
+		padding:5px 5px 5px 20px;
+		margin:0 0 5px 0;
+		border:1px solid #ccc;		
+	}
+
+/*
+INFORMAICON EN LA TABLE
+*/
+#informacion_factura{
+	font-size:12px;
+	border:1PX solid #CCC;
+	border-right:none;
+	border-bottom:none;
+	margin:15px 0 0 35px;
+	width:746px;
+}
+#informacion_factura th{
+	border:1px solid #fff;
+	border-left:none;
+	border-top:none;
+	padding:5px 1px 5px 1px;
+	background:#328AA4 url(../images/th.gif) repeat-x;
+	color:#fff;
+}
+#informacion_factura td{
+	border:1px solid #ccc;
+	border-left:none;
+	border-top:none;
+	padding:1px 2px 1px 2px;
+}
+#informacion_factura tr{
+	background:#E5F1F4;
+}
+#informacion_factura tr.dos{
+	background:#ECFBD4;
+}
+.derecha{
+	text-align:right;
+}
+.total{
+	font-weight:bold;
+}
+#firma{
+	display:none;
+}
+#genera{
+	display:none;
+}
+#nota{
+	width:410px;
+	border:1px solid #ccc;
+	margin:10px 90px 0 35PX;
+	padding:10px;
+	font-size:9pt;
+}
+.no{
+	margin:0 0 0 40px;
+	}
+#fecha_selector{
+	margin:0 0 20px 40px;
+	background:#CCC;
+	width:730px;
+	padding:0 0 3px 10px;
+	background:#328AA4 url(../images/th.gif) repeat-x;
+	color:#fff;	
+	}
